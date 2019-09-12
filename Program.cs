@@ -4,28 +4,51 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Addition
+namespace Subtraction
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int x, y, z;
-            //string a, b;
-            Console.WriteLine("Addition");
-            Console.Write("Enter your First Number: ");
-            //a = Console.ReadLine();
-            //return int.TryParse(a, out x);
 
+
+            // Perform Subtraction
+            /*
+            int x, y, z;
+            Console.WriteLine("Subtraction");
+            Console.Write("Enter your First Number: ");
             x = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter your Second Number: ");
-            y =Convert.ToInt32(Console.ReadLine());
-            z = x + y;
-            Console.WriteLine("Addition of " + x + " + " + y + " = " + z);
+            y = Convert.ToInt32(Console.ReadLine());
+            z = x - y;
+            Console.WriteLine("Subtraction of " + x + " - " + y + " = " + z);
+            */
+
+            // Perform Multiplication
+            /*
+            int x, y, z;
+            Console.WriteLine("Multiplication");
+            Console.Write("Enter your First Number: ");
+            x = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter your Second Number: ");
+            y = Convert.ToInt32(Console.ReadLine());
+            z = x * y;
+            Console.WriteLine("Multiplication of " + x + " * " + y + " = " + z);
+            */
+
+            // Perform Division
+            /*
+            int x, y;
+            Console.WriteLine("Division");
+            Console.Write("Enter your First Number: ");
+            x = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter your Second Number: ");
+            y = Convert.ToInt32(Console.ReadLine());
+            double z = x / y;
+            Console.WriteLine("Division of " + x + " / " + y + " = " + z);
+            */
+
             Console.ReadLine();
-
-
-
         }
     }
 }
